@@ -1,0 +1,12 @@
+{
+  "name": "@opencircuitlabs/protocol-decoder-suite",
+  "version": "1.0.0",
+  "description": "Deterministic UART, SPI, and I2C decoding for packed digital captures",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "decode-capture": "src/cli.js" },
+  "scripts": { "test": "node --test", "check": "npm test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
